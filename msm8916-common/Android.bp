@@ -19,3 +19,18 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "WfdService",
+	owner: "xiaomi",
+	apk: "wfd/app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+dex_import {
+	name: "WfdCommon",
+	owner: "xiaomi",
+	jars: ["wfd/framework/WfdCommon.jar"],
+}
