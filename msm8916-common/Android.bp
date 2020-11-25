@@ -20,6 +20,17 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "PowerOffAlarm",
+	owner: "xiaomi",
+	apk: "alarm/product/app/PowerOffAlarm/PowerOffAlarm.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "WfdService",
 	owner: "xiaomi",
 	apk: "wfd/app/WfdService/WfdService.apk",
