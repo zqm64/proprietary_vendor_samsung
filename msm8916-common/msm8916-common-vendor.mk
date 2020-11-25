@@ -211,7 +211,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.ant@1.0 \
     libloc_api_v02 \
     libloc_ds_api \
-    libskia \
     vendor.qti.hardware.fm@1.0 \
     libHevcSwDecoder \
     libaudioalsa \
